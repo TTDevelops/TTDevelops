@@ -8,19 +8,20 @@
 
 
 /* 1.Menu */
+/*Nueva cabecera y menu*/
 .tituloprincipal{
     text-align: left;
-    padding-left: 0px;
     color: white;
     font-style: italic ;
 }
 .nav-link{
    color: white;
-   
 }
 a:hover, a:active {
     color:red;
   }
+/*fin cabecera y menu*/
+
 .main {
 	background:#fff;
 	padding:20px;
