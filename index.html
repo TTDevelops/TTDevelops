@@ -5,33 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Proyecto</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
 </head>
 <body>
     
     <header>
         <!--1.Menu-->
-        <div class="cabecera">
-            <!-- LOGO -->
-            <a href="#">
-                <img src="images/logo.jpg" alt=logo class="logo">
+        <nav class="navbar navbar-dark bg-dark">
+            <!-- Navbar content -->
+            <a class="navbar-brand" href="#">
+                <img src="https://img.icons8.com/cotton/2x/globe.png" width="40" height="40" alt="">
             </a>
-            <!-- MENU -->
-            <nav class="menu">
-                <div class="menu_elementos">
-                    <input type="checkbox" id="checked" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul>
-                        <li><a href="">Cosa1</a></li>
-                        <li><a href="">Cosa2</a></li>
-                        <li><a href="">Cosa3</a></li>
-                        <li><a href="">Cosa4</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+              <h1 class="tituloprincipal">OMNIPARENTIS</h1>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Aprende algo nuevo!</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+          </nav>
         <section class="main">
 			<article>
 				<h2 class="titulo">Omniparentis.</h2>
@@ -41,7 +43,22 @@
  
 	
 		</section>
-       
+       <section>
+        <div class="container">
+            <div class="row row-cols-4">
+              <div class="col"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" alt="Pythonlogo" class="img-thumbnail">Python </div>
+              <div class="col"><img src="http://blog.desafiolatam.com/wp-content/uploads/2018/05/csharp-logo.png" alt="CSharpLogo" class="img-thumbnail">Csharp</div>
+              <div class="col"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScriptLogo" class="img-thumbnail">JavaScript</div>
+              <div class="col"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++Logo" class="img-thumbnail">C++</div>
+            </div>
+            <div class="row row-cols-4">
+                <div class="col"><img src="https://selenium.dev/images/selenium_logo_square_green.png" alt="Seleniumlogo" class="img-thumbnail">Selenium </div>
+                <div class="col"><img src="https://lenguajehtml.com/img/logo.png" alt="HTMLLogo" class="img-thumbnail">HTML</div>
+                <div class="col"><img src="https://icons-for-free.com/iconfiles/png/512/award+badge+css+css3+reward+trophy+icon-1320184828426835743.png" alt="CSSLogo" class="img-thumbnail">CSS</div>
+                <div class="col"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" alt="BootstrapLogo" class="img-thumbnail">Bootstrap</div>
+              </div>
+          </div>
+       </section>
     </header>
 </body>
 </html>
