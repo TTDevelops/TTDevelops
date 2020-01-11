@@ -68,8 +68,8 @@ a:hover, a:active {
 @media screen and (max-width:576px){
 
     .nav-link{
-        line-height: 2px;
-        padding-left: 10px;
+        line-height: -10px;
+        padding-left: -10px;
     }
 
 }
