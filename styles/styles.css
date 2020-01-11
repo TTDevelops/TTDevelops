@@ -65,7 +65,21 @@ a:hover, a:active {
     text-align: left;
 }
 
-@media screen and (max-width:375px){
+/*Hice un responsive del menu para la mayoria de los dispositivos*/
+/*Se puede mejorar y mucho... pero fue en base al tiempo que tenia*/
+@media screen and (max-width:320px) {
+
+
+    .nav-link{
+        font-size: 2px;
+        line-height: 2px;
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+
 
     .nav-link{
         font-size: 10px;
@@ -75,6 +89,30 @@ a:hover, a:active {
 
 }
 
+@media screen and (max-width:411px) {
+
+
+    .nav-link{
+        font-size: 10px;
+        line-height: 2px;
+        padding-left: -10px;
+    }
+
+}
+
+@media screen and (max-width:414px) {
+
+
+    .nav-link{
+        font-size: 10px;
+        line-height: 2px;
+        padding-left: -10px;
+    }
+
+}
+/*Fin del responsive:dispositivos*/
+
+/*Responsive standar*/
 @media screen and (max-width:576px){
     header .image{
         display: none;
