@@ -65,10 +65,25 @@ a:hover, a:active {
     text-align: left;
 }
 
+@media screen and (max-width:576px){
+    header .image{
+        display: none;
+    }
+
+    .nav-link{
+        line-height: 10px;
+        padding-left: 0px;
+    }
+    
+
+
+}
+
 
 
 @media screen and (min-width:576px) and (max-width:768px){
-    
+  
+
     /*Parrafo abajo del menu*/
     .main p{
         padding-right: 30px;
@@ -88,37 +103,10 @@ a:hover, a:active {
 
 @media screen and (min-width:1024px){
     /*Menu hamburguesa */
-    .cabecera {
-        padding: 10px 30px;
-        margin-top: 20px;
-        position: sticky;
-    }
-    .cabecera nav ul {
-        display: flex;
-        flex-direction: row;
-        height: 50px;
-        position: absolute;
-        top: 0;
-        right: 10px;
-        width: auto;
-        background: white;
-    }
-    .cabecera nav ul li a {
-        text-decoration: none;
-        font-size: 16px;
-        line-height: 20px;
-        padding: 10px 15px 15px 10px;
-        color: black;
-        
-    }
-    .menu_elementos input,
-    .menu_elementos span {
+    .titulo{
         display: none;
-    }
-    .cabecera nav ul li a:hover {
-        color: green;
-        
-    }
+    }  
+
 
     .main{
         margin-top: 120px;
@@ -133,4 +121,12 @@ a:hover, a:active {
         margin-bottom: 0;
     }
     
+}
+
+@media screen and (max-width:1024px){
+
+    .tituloprincipal{
+        display: none;
+    }
+
 }
