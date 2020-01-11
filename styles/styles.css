@@ -65,10 +65,11 @@ a:hover, a:active {
     text-align: left;
 }
 
-@media screen and (max-width:576px){
+@media screen and (max-width:375px){
 
     .nav-link{
-        line-height: -10px;
+        font-size: 10px;
+        line-height: 2px;
         padding-left: -10px;
     }
 
